@@ -111,7 +111,7 @@ function taskFive() {
   
   console.log(trash);
   console.log(eatable);
-  document.getElementById("answer-five").innerHTML =  `<p> <strong> ${eatable} </strong> </p> <p> <strong> ${trash} </strong> </p>`
+  document.getElementById("answer-five").innerHTML =  `<p> <strong> Ätligt: ${eatable} </strong> </p> <p> <strong> Skräp: ${trash} </strong> </p>`
   
 }
 
