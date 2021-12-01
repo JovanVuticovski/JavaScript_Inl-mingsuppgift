@@ -165,7 +165,9 @@ function taskSix() {
   }
   console.log(notMarried)
   console.log(married)
-  document.getElementById("answer-six").innerHTML =  `<p>  <strong> ${notMarried} </strong> </p> <p> <strong> ${married} </strong> </p> <p> <strong> ${underThirty}</strong> </p> <p> <strong> ${overThirty} </strong> </p> ` 
+  console.log(underThirty)
+  console.log(overThirty)
+  document.getElementById("answer-six").innerHTML =  `<p>  <strong> Ogift: ${notMarried} </strong> </p> <p> Gift: <strong> ${married} </strong> </p> <p> <strong> Under 30: ${underThirty}</strong> </p> <p> <strong> Över 30: ${overThirty} </strong> </p> ` 
   
 }
 
